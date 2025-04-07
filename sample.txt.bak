@@ -1,6 +1,6 @@
 Hello world!
 This is a sample text
-The quick brown cat jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
 sed is powerful
 
 <- sed 's/sample/example/g' sample.txt -> 
@@ -17,9 +17,5 @@ this is used to insert a line before given line index
 
 <- sed '3a file txt' sample.txt ->
 this is used to append a line before given line index
-
-<- sed -i.bak 's/fox/cat/g' sample.txt -> 
-this command is used to change the variable given to change
-like here fox is being replaced with cat when encountered
 
 
