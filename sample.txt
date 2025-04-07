@@ -1,0 +1,12 @@
+Hello world!
+This is a sample text
+The quick brown fox jumps over the lazy dog.
+sed is powerful
+
+<- sed 's/sample/example/g' sample.txt -> 
+the command will replace the sample with example on executing
+
+<- sed 's/o/O/' sample.txt ->
+this command will replace the first occurrence of the o with O
+
+
