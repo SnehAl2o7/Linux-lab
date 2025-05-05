@@ -21,3 +21,10 @@ read name
 read -p "What is your age" age
 echo "Name is  $name and age is $age"
 
+#using if-else
+if [ $age -eq 15 ]
+then
+	echo "You are Adult"
+else
+	echo "You are not Adult"
+fi
