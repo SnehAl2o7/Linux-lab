@@ -59,3 +59,7 @@ chmod +x yourscript.sh
 # Run it!
 ./yourscript.sh
 
+./yourscript.sh [command] [options]
+
+# Example
+./yourscript.sh --update
